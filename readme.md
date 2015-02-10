@@ -16,3 +16,9 @@ The CMS should be able to:
 An Arctic Tern is a bird.
 
 The Arctic Tern is a member of a very exclusive animal club, it can be found at different times at both poles.
+
+## things to install
+
+Bootstrap for styling
+Active Admin for backend panel
+Bootsy for Editor/Frontend panel
