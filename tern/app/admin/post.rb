@@ -7,7 +7,7 @@ ActiveAdmin.register Post do
   filter :title
   filter :author
   
-  # override form
+  # override default form
   form :html => { :enctype => "multipart/form-data" } do |f|
    f.inputs 'Post Details' do
     f.input :title
@@ -18,7 +18,5 @@ ActiveAdmin.register Post do
   
    f.actions
   end
-  
-  
   
 end
