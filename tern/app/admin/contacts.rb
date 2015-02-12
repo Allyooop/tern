@@ -1,5 +1,6 @@
 ActiveAdmin.register Contact do
 
+
   # as with Rails controllers, white list actions
   permit_params :name, :email, :message
   
@@ -7,5 +8,5 @@ ActiveAdmin.register Contact do
   filter :name
   filter :email
   filter :message
-  
+
 end
