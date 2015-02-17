@@ -1,8 +1,6 @@
 Rails.application.routes.draw do
   
-  get 'posts/index'
-
-  get 'posts/show'
+  resources "posts", only: [:index, :show]
 
   root 'static_pages#index'
   
